@@ -6,22 +6,24 @@
     <Nullable>enable</Nullable>
     <Title>Global.Common.Features</Title>
 	<PackageId>Global.Common.Features</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1-beta.1</Version>
     <Authors>Cesar Palomino Vila</Authors>
 	  <Description>
-		  This project contains several basic features that provide functionalities to support and enhance development.
-		  This is a beta version and has not been thoroughly tested or recommended for use in production environments.
+		  This project contains several basic features that provide functionalities to support and enhance development. This is a beta version and has not been thoroughly tested or recommended for use in production environments.
 	  </Description>
 	  <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-	  <PackageProjectUrl>https://github.com/cesarpv27/Global.Common-beta.1</PackageProjectUrl>
+	  <PackageProjectUrl></PackageProjectUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <RepositoryUrl>https://github.com/cesarpv27/Global.Common-beta.1</RepositoryUrl>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <Copyright>Copyright (c) 2024 Cesar Palomino Vila. Licensed under the BSD-3-Clause.</Copyright>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <PackageReleaseNotes>
+		  ### Fixed
+		  - v0.1.1-beta.1 The description has been fixed in the documentation.
+
 		  ### Added
-		  - v0.1.0 Several basic features that provide functionalities to support and enhance development.
+		  - v0.1.0-beta.1 Several basic features that provide functionalities to support and enhance development.
 	  </PackageReleaseNotes>
   </PropertyGroup>
 
