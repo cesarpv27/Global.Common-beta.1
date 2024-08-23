@@ -1,5 +1,7 @@
 # Global.Common.Features
 
+# namespace Global.Common
+
 # Changelog
 
 All notable changes made to this project will be documented in this file.
@@ -10,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ### Fixed
+- v0.1.2-beta.1 The description has been fixed in the documentation.
 - v0.1.1-beta.1 The description has been fixed in the documentation.
 
 ### Added

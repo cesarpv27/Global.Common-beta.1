@@ -1,11 +1,12 @@
 # Global.Common.Features
 
+# namespace Global.Common
 
 # Description
 
-# This project contains several features that provide functionalities to support and enhance development. All methods are documented.
-
-# This is a beta version and has not been thoroughly tested or recommended for use in production environments.
+This project contains several features that provide functionalities to support and enhance development.
+This is a beta version and has not been thoroughly tested or recommended for use in production environments.
+All methods are documented.ddd
 
 
 # RepositoryUrl

@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+	<EnablePackageValidation>true</EnablePackageValidation>
+	<IsPackable>true</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>Global.Common.Features</Title>
 	<PackageId>Global.Common.Features</PackageId>
-    <Version>0.1.1-beta.1</Version>
+    <Version>0.1.2-beta.1</Version>
     <Authors>Cesar Palomino Vila</Authors>
-	  <Description>
-		  This project contains several basic features that provide functionalities to support and enhance development. This is a beta version and has not been thoroughly tested or recommended for use in production environments.
-	  </Description>
+	  <Description>This project contains several basic features that provide functionalities to support and enhance development. This is a beta version and has not been thoroughly tested or recommended for use in production environments. All methods are documented.</Description>
 	  <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 	  <PackageProjectUrl></PackageProjectUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -20,6 +20,7 @@
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <PackageReleaseNotes>
 		  ### Fixed
+		  - v0.1.2-beta.1 The description has been fixed in the documentation.
 		  - v0.1.1-beta.1 The description has been fixed in the documentation.
 
 		  ### Added
@@ -28,8 +29,8 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\README.md" Pack="true" PackagePath="\"/>
-		<None Include="..\CHANGELOG.md" Pack="true" PackagePath="\"/>
+		<None Include="docs\README.md" Pack="true" PackagePath="\"/>
+		<None Include="docs\CHANGELOG.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 	
 	<Target Name="PostPack" AfterTargets="Pack">
